@@ -33,13 +33,24 @@
 .Logo-Title > span{
     font-weight: 600;
 }
-/* Header */
+/* Page */
 .PageWrapper{
     animation: overhang .7s;
-    background: url("../images/header/header-bgBanner.svg") 100% 75% no-repeat;
+    position: relative;
+    z-index: 4;
+    background: url("../images/header/header-bgBanner.svg") 100% 75% no-repeat,
+                url("../images/decoration/blue.svg") 80% -5% no-repeat,
+                url("../images/decoration/red.svg") 105% -5% no-repeat,
+                url("../images/decoration/purple.svg") 78% 52% no-repeat,
+                url("../images/decoration/green.svg") 105% 52% no-repeat,
+                url("../images/decoration/line.svg") 0 110% no-repeat;
+}
+/* Header */
+.Header{
+    position: relative;
 }
 .Header-Nav{
-    margin-top: 43px;
+    padding-top: 43px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,3 +102,26 @@
     height: 44px;
     background: url(" ../images/button/scroll.svg") no-repeat;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

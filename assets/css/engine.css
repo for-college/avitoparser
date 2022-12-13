@@ -2,6 +2,7 @@
 :root {
     --color-primary: #5956E9;
     --link-hover: #4542fc;
+    --text-color: #16171B;
     --color-gradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
 }
 /* Подключение шрифта */
@@ -86,9 +87,10 @@ nav{
 a, p, h1, h2, h3, button, span{
     font-family: 'Futura PT', serif;
     font-size: 24px;
-    color: #16171B;
+    color: var(--text-color);
 }
 body{
+    overflow-x: hidden;
     background-color: #ECF2F6;
 }
 .Link{

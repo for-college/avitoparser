@@ -1,0 +1,93 @@
+/* Logo */
+.Logo-Link{
+    display: flex;
+    align-items: center;
+}
+.Logo-ImageWrapper{
+    position: relative;
+}
+.Logo-Img{
+    padding-right: 23px;
+}
+.Logo-ImageWrapper::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 68px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url("../images/logo/logo.svg");
+    opacity: 0.5;
+    filter: blur(9px);
+}
+.Logo-Title{
+    padding-bottom: 15px;
+}
+.Logo-Title,
+.Logo-Title > span{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+}
+.Logo-Title > span{
+    font-weight: 600;
+}
+/* Header */
+.PageWrapper{
+    animation: overhang .7s;
+    background: url("../images/header/header-bgBanner.svg") 100% 85% no-repeat;
+}
+.Header-Nav{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header-TextRent{
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+.Header-TextRent > span{
+    display: block;
+    margin-bottom: 53px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.Header-TextSup{
+    text-transform: uppercase;
+}
+.Header-TextSup{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+.Header-Title,
+.Header-Title > span{
+    margin: 20px 0;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+}
+.Header-Title > span{
+    background: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Header-TextAd{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+.Header-Scroll{
+    padding-top: 150px;
+}
+.LinkScroll{
+    margin: 0 auto;
+    display: block;
+    width: 28px;
+    height: 44px;
+    background: url(" ../images/button/scroll.svg") no-repeat;
+}

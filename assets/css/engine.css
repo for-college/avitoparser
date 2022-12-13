@@ -1,7 +1,7 @@
 /* Переменные */
 :root {
     --color-primary: #5956E9;
-    --link-hover: #4542fc;
+    --link-hover: #383796;
     --text-color: #16171B;
     --color-gradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
 }
@@ -75,11 +75,11 @@ div,
 nav{
     box-sizing: border-box;
 }
-.wrapper{
+.PageWrapper{
     min-width: 320px;
     margin: 0 auto;
 }
-.container{
+.Container{
     padding: 0 15px;
     max-width: 1164px;
     margin: 0 auto;

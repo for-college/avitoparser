@@ -36,18 +36,26 @@
 /* Page */
 .PageWrapper{
     animation: overhang .7s;
-    position: relative;
-    z-index: 4;
-    background: url("../images/header/header-bgBanner.svg") 100% 75% no-repeat,
-                url("../images/decoration/blue.svg") 80% -5% no-repeat,
-                url("../images/decoration/red.svg") 105% -5% no-repeat,
-                url("../images/decoration/purple.svg") 78% 52% no-repeat,
-                url("../images/decoration/green.svg") 105% 52% no-repeat,
-                url("../images/decoration/line.svg") 0 110% no-repeat;
 }
 /* Header */
 .Header{
+    padding-bottom: 100px;
     position: relative;
+    background: url("../images/header/header-bgBanner.svg") right 150px no-repeat,
+                url("../images/decoration/blue.svg") 1160px top no-repeat,
+                url("../images/decoration/red.svg") right top no-repeat,
+                url("../images/decoration/purple.svg") 1300px 370px no-repeat,
+                url("../images/decoration/green.svg") right 250px no-repeat,
+                url("../images/decoration/line.svg") left 600px no-repeat;
+}
+.Header > .Container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.Header-Content{
+    flex: 1 1 auto;
 }
 .Header-Nav{
     padding-top: 43px;
@@ -93,16 +101,67 @@
     line-height: 38px;
 }
 .Header-Scroll{
-    padding-top: 150px;
+    align-self: center;
+    justify-content: flex-end;
 }
 .LinkScroll{
-    margin: 0 auto;
     display: block;
     width: 28px;
     height: 44px;
     background: url(" ../images/button/scroll.svg") no-repeat;
 }
-
+/* Try */
+.Try{
+    position: relative;
+    margin: 130px auto 0;
+    width: 737px;
+    border-radius: 170px;
+    background: #27272E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 70px;
+}
+.Try::after{
+    position: absolute;
+    content: '';
+    z-index: -1;
+    left: -10px;
+    top: -10px;
+    width: 757px;
+    border-radius: 170px;
+    height: 253px;
+    background: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%),
+    linear-gradient(0deg, #27272E, #27272E);
+}
+.Try::before{
+    content: '';
+    position: absolute;
+    width: 680px;
+    height: 234px;
+    border-radius: 170px;
+    top: 0;
+    left: 31px;
+    z-index: -1;
+    background: #27272E;
+    opacity: 0.5;
+    filter: blur(9px);
+}
+.Try-Slogan{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
+    color: white;
+    margin-top: -30px;
+}
+.Try-Slogan > span{
+    color: #FAB8C4;
+    font-size: 57px;
+    line-height: 83px;
+    font-weight: 500;
+}
+/* Advantages */
 
 
 

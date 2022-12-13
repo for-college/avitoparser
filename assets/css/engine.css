@@ -1,0 +1,125 @@
+/* Подключение шрифта */
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('fonts/FuturaPT-Book.eot');
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+    url('fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaPT-Book.woff') format('woff'),
+    url('fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Light.eot');
+    src: local('Futura PT Light'), local('FuturaPT-Light'),
+    url('fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaPT-Light.woff') format('woff'),
+    url('fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+    url('fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaPT-Medium.woff') format('woff'),
+    url('fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('fonts/FuturaPT-Demi.eot');
+    src: local('Futura PT Demi'), local('FuturaPT-Demi'),
+    url('fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaPT-Demi.woff') format('woff'),
+    url('fonts/FuturaPT-Demi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Heavy.eot');
+    src: local('Futura PT Heavy'), local('FuturaPT-Heavy'),
+    url('fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaPT-Heavy.woff') format('woff'),
+    url('fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+/* Общие правила */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1366px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+a, p, h1, h2, h3, button{
+    font-family:  'Futura PT Demi';
+    font-size: 20px;
+}
+body{
+    background-color: bisque;
+}
+/* Флекс правила */
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+/**/
+.align-content-center{
+    align-content: center;
+}
+.align-content-between{
+    align-content: space-between;
+}
+.align-content-evenly{
+    align-content: space-evenly;
+}
+.align-content-around{
+    align-content: space-around;
+}
+.align-content-start{
+    align-content: flex-start;
+}
+.align-content-end{
+    align-content: flex-end;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}

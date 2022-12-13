@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url("../images/logo/logo.svg");
+    background: var(--Logo);
     opacity: 0.5;
     filter: blur(9px);
 }
@@ -39,16 +39,15 @@
 }
 /* Header */
 .Header{
-    position: relative;
-    background: var(--logo) right 150px no-repeat,
-                var(--blue-circle) right 250px top no-repeat,
-                var(--red-circle) right top no-repeat,
-                var(--purple-circle) right 410px top 370px no-repeat,
-                var(--green-circle) right 250px no-repeat,
-                var(--decor-line) left bottom no-repeat;
+    background: var(--HeaderBg) right 150px no-repeat,
+                var(--BlueCircle) right 250px top no-repeat,
+                var(--RedCircle) right top no-repeat,
+                var(--PurpleCircle) right 410px top 370px no-repeat,
+                var(--GreenCircle) right 250px no-repeat,
+                var(--DecorLine) left bottom no-repeat;
 }
-.Header > .Container{
-    height: 100vh;
+.Header-Container{
+    height: 96vh;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
@@ -90,7 +89,7 @@
     line-height: 80px;
 }
 .Header-Title > span{
-    background: var(--color-gradient);
+    background: var(--ColorGradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -106,7 +105,7 @@
     display: block;
     width: 28px;
     height: 44px;
-    background: url(" ../images/button/scroll.svg") no-repeat;
+    background: var(--LinkImg);
 }
 /* Try */
 .Try{
@@ -123,13 +122,13 @@
 .Try::after{
     position: absolute;
     content: '';
-    z-index: -1;
+    z-index: -2;
     left: -10px;
     top: -10px;
     width: 757px;
     border-radius: 170px;
     height: 253px;
-    background: var(--try-gradient);
+    background: var(--TryGradient);
 }
 .Try::before{
     content: '';
@@ -139,12 +138,13 @@
     border-radius: 170px;
     top: 0;
     left: 31px;
-    z-index: -1;
+    z-index: -3;
     background: #27272E;
     opacity: 0.5;
     filter: blur(9px);
 }
 .Try-Slogan{
+    z-index: 1;
     text-align: center;
     font-size: 36px;
     font-weight: 400;
@@ -158,8 +158,24 @@
     line-height: 83px;
     font-weight: 500;
 }
+.Try-Slogan > span::after{
+    content: '';
+    position: absolute;
+    width: 737px;
+    height: 333px;
+    left: 0;
+    bottom: -50px;
+    z-index: -1;
+    background: var(--AdvantagesDecor) left no-repeat;
+}
+.Try-Image{
+    z-index: 1;
+}
 /* Advantages */
-
+.Advantages{
+    background: var(--AdvantagesBg);
+    padding-top: 100px;
+}
 
 
 

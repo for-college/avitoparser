@@ -1,14 +1,22 @@
 :root{
-    --color-primary: #5956E9;
-    --link-hover: #3c3afa;
-    --text-color: #16171B;
-    --color-gradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
-    --logo: url("../images/header/header-bgBanner.svg");
-    --red-circle: url("../images/decoration/red.svg") ;
-    --blue-circle: url("../images/decoration/blue.svg");
-    --purple-circle: url("../images/decoration/purple.svg");
-    --green-circle: url("../images/decoration/green.svg");
-    --decor-line: url("../images/decoration/line.svg");
-    --try-gradient: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%),
+    /* Colors */
+    --СolorPrimary: #5956E9;
+    --ColorSecondary: #27272E;
+    --LinkHover: #3c3afa;
+    --TextColor: #16171B;
+    --ColorGradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
+    /* Images */
+    --HeaderBg: url("../images/header/header-bgBanner.svg");
+    --RedCircle: url("../images/decoration/red.svg") ;
+    --BlueCircle: url("../images/decoration/blue.svg");
+    --PurpleCircle: url("../images/decoration/purple.svg");
+    --GreenCircle: url("../images/decoration/green.svg");
+    --DecorLine: url("../images/decoration/line.svg");
+    --TryGradient: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%),
                     linear-gradient(0deg, #27272E, #27272E);
+    --Logo: url("../images/logo/logo.svg");
+    --AdvantagesDecor: url("../images/advantages/decor.svg");
+    --AdvantagesBg: url("../images/advantages/line.svg") center 0 no-repeat;
+    /* Link image*/
+    --LinkImg: url("../images/button/scroll.svg") no-repeat;
 }

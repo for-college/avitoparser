@@ -1,5 +1,7 @@
+/* Импорт стилевых файлов */
 @import "fonts.css";
 @import "vars.css";
+@import "animations.css";
 /* Общие правила */
 *{
     margin: 0;
@@ -9,21 +11,14 @@ html{
     scroll-behavior: smooth;
     animation: opacity 1s;
 }
-a{
-    text-decoration: none;
-}
-button{
-    cursor: pointer;
-}
-div,
-nav{
-    box-sizing: border-box;
-}
+a{ text-decoration: none; }
+button{ cursor: pointer; }
+div, nav{ box-sizing: border-box; }
 .PageWrapper{
     min-width: 320px;
     margin: 0 auto;
 }
-.Container{
+[class*="-Container"]{
     padding: 0 15px;
     max-width: 1164px;
     margin: 0 auto;
@@ -31,24 +26,22 @@ nav{
 a, p, h1, h2, h3, button, span{
     font-family: 'Futura PT', serif;
     font-size: 24px;
-    color: var(--text-color);
+    color: var(--TextColor);
 }
-body{
-    overflow-x: hidden;
-    background-color: #ECF2F6;
-}
+body{ background-color: #ECF2F6; }
+/* Стили для стандартной ссылки */
 .Link{
     font-size: 24px;
     line-height: 31px;
     text-align: center;
     padding: 21px 36px;
-    background-color: var(--color-primary);
+    background-color: var(--СolorPrimary);
     color: white;
     border-radius: 21px;
     position: relative;
     z-index: 1;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .Link::before{
     content: '';
@@ -58,32 +51,18 @@ body{
     top: 10px;
     width: 218px;
     z-index: -1;
-    background: var(--color-primary);
+    background: var(--СolorPrimary);
     opacity: 0.5;
     filter: blur(24px);
     border-radius: 21px;
 }
 .Link:hover{
     transition: background-color .2s linear;
-    background: var(--link-hover);
+    background: var(--LinkHover);
 }
 .Title{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
     text-align: center;
-}
-/* Animations */
-@keyframes opacity{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-@keyframes overhang{
-    from{
-        margin-top: -1000px;
-    }
-    to{
-        margin-top: 0;
-    }
 }

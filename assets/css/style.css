@@ -36,7 +36,7 @@
 /* Header */
 .PageWrapper{
     animation: overhang .7s;
-    background: url("../images/header/header-bgBanner.svg") 100% 85% no-repeat;
+    background: url("../images/header/header-bgBanner.svg") 100% 75% no-repeat;
 }
 .Header-Nav{
     margin-top: 43px;
@@ -72,7 +72,7 @@
     line-height: 80px;
 }
 .Header-Title > span{
-    background: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
+    background: var(--color-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

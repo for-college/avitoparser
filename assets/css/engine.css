@@ -1,3 +1,9 @@
+/* Переменные */
+:root {
+    --color-primary: #5956E9;
+    --link-hover: #4542fc;
+    --color-gradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
+}
 /* Подключение шрифта */
 @font-face {
     font-family: 'Futura PT';
@@ -90,7 +96,7 @@ body{
     line-height: 31px;
     text-align: center;
     padding: 21px 36px;
-    background-color: #5956E9;
+    background-color: var(--color-primary);
     color: white;
     border-radius: 21px;
     position: relative;
@@ -106,11 +112,16 @@ body{
     top: 10px;
     width: 218px;
     z-index: -1;
-    background: #5956E9;
+    background: var(--color-primary);
     opacity: 0.5;
     filter: blur(24px);
     border-radius: 21px;
 }
+.Link:hover{
+    transition: background-color .2s linear;
+    background: var(--link-hover);
+}
+/* Animations */
 @keyframes opacity{
     from{
         opacity: 0;

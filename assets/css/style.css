@@ -1,3 +1,8 @@
+@import "engine.css";
+@import "fonts.css";
+@import "vars.css";
+@import "animations.css";
+@import "adaptive.css";
 /* Logo */
 .Logo-Link{
     display: flex;
@@ -186,6 +191,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 .ItemAdvantages:last-child{
     margin-top: 100px;
@@ -273,4 +279,9 @@
     font-size: 55px;
     line-height: 150%;
     color: var(--СolorPrimary);
+}
+/* Work */
+.Work-Title{
+    font-weight: 450;
+    font-size: 64px;
 }

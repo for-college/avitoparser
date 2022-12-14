@@ -6,6 +6,7 @@
 html{
     scroll-behavior: smooth;
     animation: opacity 1s;
+    overflow-x: hidden;
 }
 a{ text-decoration: none }
 button{ cursor: pointer }
@@ -21,7 +22,7 @@ ul { list-style-type: none }
     max-width: 1164px;
     margin: 0 auto;
 }
-a, p, h1, h2, h3, h4, button, span{
+a, p, h1, h2, h3, h4, button, span, label, input{
     font-family: 'Futura PT', serif;
     font-size: 24px;
     color: var(--TextColor);

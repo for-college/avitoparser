@@ -26,6 +26,12 @@
     /* Price */
     --PriceBgTop: url("../images/price/priceBgTop.png");
     --PriceBgBottom: url("../images/price/priceBgBottom.png");
+    /* Work */
+    --WorkBg: url("../images/work/man.svg");
+    --WorkBgBlue: url("../images/work/workBlueDecor.svg");
+    --WorkBgRed: url("../images/work/workRedDecor.svg");
+    --WorkBgGreen: url("../images/work/workGreenDecor.svg");
+    --WorkBgWhite: url("../images/work/workWhiteDecor.svg");
     /* Link image*/
     --LinkImg: url("../images/button/scroll.svg") no-repeat;
 }

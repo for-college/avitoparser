@@ -4,6 +4,7 @@
     --ColorSecondary: #27272E;
     --LinkHover: #3c3afa;
     --TextColor: #16171B;
+    --TitleColor: #27272E;
     --ColorGradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
     /* Images */
     --HeaderBg: url("../images/header/header-bgBanner.svg");

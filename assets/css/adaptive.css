@@ -1,0 +1,19 @@
+@media (max-width: 1180px) {
+    .Advantages{
+        background: none;
+    }
+    .ItemAdvantages{
+        gap: unset;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .ItemAdvantages-ImgWrapper{
+        order: 1;
+    }
+}
+@media (max-width: 890px) {
+    .ItemAdvantages{
+        gap: 50px;
+        align-items: center;
+    }
+}

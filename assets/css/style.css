@@ -2,14 +2,12 @@
 .Logo-Link{
     display: flex;
     align-items: center;
-}
-.Logo-ImageWrapper{
     position: relative;
 }
-.Logo-Img{
-    padding-right: 23px;
+.Logo-Link:hover{
+    transform: scale(1.1);
 }
-.Logo-ImageWrapper::before{
+.Logo-Link::before{
     content: '';
     position: absolute;
     width: 60px;
@@ -20,6 +18,9 @@
     background: var(--Logo);
     opacity: 0.5;
     filter: blur(9px);
+}
+.Logo-Img{
+    padding-right: 23px;
 }
 .Logo-Title{
     padding-bottom: 15px;
@@ -174,26 +175,46 @@
 /* Advantages */
 .Advantages{
     background: var(--AdvantagesBg);
-    padding-top: 100px;
+    padding-bottom: 180px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Advantages-Title{
+    padding: 100px 0 115px;
+}
+.ItemAdvantages{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ItemAdvantages:last-child{
+    margin-top: 100px;
+    gap: 100px;
+}
+.ItemAdvantages:not(:last-child){
+    margin-bottom: 150px;
+}
+.ItemAdvantages-Title{
+    font-weight: 500;
+    font-size: 64px;
+}
+.ItemAdvantages-Title + .ItemAdvantages-Text{
+    margin-top: 10px;
+}
+.ItemAdvantages-SubTitle{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+.ItemAdvantages-Text{
+    line-height: 31px;
+    padding-right: 10px;
+    /*    Остальные стили совпадают со стандартными в engine.css*/
+}
+/* Price */
+.Price{
+    background: #D8E1E8;
+    padding: 67px 228px;
+    border-radius: 144px;
+}

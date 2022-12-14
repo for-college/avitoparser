@@ -214,10 +214,11 @@
 }
 /* Price */
 .Price-Container{
+    box-sizing: content-box;
     background: var(--PriceBgBottom) left bottom no-repeat,
                 #D8E1E8 var(--PriceBgTop) right top no-repeat;
     border-radius: 144px;
-    padding: 70px 40px;
+    padding: 50px 165px;
 }
 .Price-Title{
     margin-bottom: 80px;
@@ -235,11 +236,6 @@
 .Price-Item_Bg_Pink{
     background-color: var(--СolorPrimary);
 }
-.Price-Text{
-    font-size: 20px;
-    line-height: 26px;
-    color: #ABABAB;
-}
 .Price-Cost{
     text-align: center;
     font-weight: 400;
@@ -253,4 +249,28 @@
     font-size: 64px;
     line-height: 82px;
     color: #FAB8C4;
+}
+.Price-Item_Bg_Pink > .Price-Cost > span{
+    color: white;
+}
+.Price-Text{
+    font-size: 20px;
+    line-height: 26px;
+    color: #ABABAB;
+}
+.Price-Advice{
+    margin-top: 70px;
+    text-align: center;
+}
+.Price-Advice > span{
+    display: block;
+    font-weight: 450;
+    font-size: 48px;
+    line-height: 100%;
+}
+.Price-Link{
+    font-weight: 450;
+    font-size: 55px;
+    line-height: 150%;
+    color: var(--СolorPrimary);
 }

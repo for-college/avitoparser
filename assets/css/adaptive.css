@@ -3,9 +3,10 @@
         background: unset !important;
     }
     .ItemAdvantages{
-        gap: unset;
+        text-align: center;
+        gap: 80px !important;
         flex-direction: column;
-        justify-content: space-between;
+
     }
     .ItemAdvantages-ImgWrapper{
         order: 1;

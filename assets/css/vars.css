@@ -6,7 +6,9 @@
     --TextColor: #16171B;
     --TitleColor: #27272E;
     --ColorGradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
+
     /* Images */
+
     /* Header */
     --HeaderBg: url("../images/header/header-bgBanner.svg");
     --RedCircle: url("../images/decoration/red.svg") ;
@@ -20,6 +22,7 @@
     /* Advantages */
     --AdvantagesDecor: url("../images/advantages/decor.svg");
     --AdvantagesBg: url("../images/advantages/line.svg") center 0 no-repeat;
+    --AdvantagesDecorLine: url("../images/decoration/lineBlue.svg") no-repeat;
     /* Price */
     --PriceBgTop: url("../images/price/priceBgTop.png");
     --PriceBgBottom: url("../images/price/priceBgBottom.png");

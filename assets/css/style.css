@@ -213,8 +213,44 @@
     /*    Остальные стили совпадают со стандартными в engine.css*/
 }
 /* Price */
-.Price{
-    background: #D8E1E8;
-    padding: 67px 228px;
+.Price-Container{
+    background: var(--PriceBgBottom) left bottom no-repeat,
+                #D8E1E8 var(--PriceBgTop) right top no-repeat;
     border-radius: 144px;
+    padding: 70px 40px;
+}
+.Price-Title{
+    margin-bottom: 80px;
+}
+.Price-List{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.Price-Item{
+    padding: 50px 20px;
+    border-radius: 28px;
+    background-color: var(--ColorSecondary);
+}
+.Price-Item_Bg_Pink{
+    background-color: var(--СolorPrimary);
+}
+.Price-Text{
+    font-size: 20px;
+    line-height: 26px;
+    color: #ABABAB;
+}
+.Price-Cost{
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    color: white;
+}
+.Price-Cost > span{
+    display: block;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 82px;
+    color: #FAB8C4;
 }

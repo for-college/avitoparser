@@ -23,8 +23,11 @@
     /* Price */
     --PriceBgTop: url("../images/price/priceBgTop.png");
     --PriceBgBottom: url("../images/price/priceBgBottom.png");
+    --PriceBgTopMobile: url("../images/price/priceBgMobile.png");
+    --PriceBgBottomMobile: url("../images/price/priceBgMobileBot.png");
     /* Work */
     --WorkBg: url("../images/work/man.svg");
+    --WorkBgMobile: url("../images/work/workBgMobile.svg");
     --WorkBgBlue: url("../images/work/workBlueDecor.svg");
     --WorkBgRed: url("../images/work/workRedDecor.svg");
     --WorkBgGreen: url("../images/work/workGreenDecor.svg");

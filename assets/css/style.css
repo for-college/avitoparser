@@ -41,10 +41,12 @@
 /* Header */
 .Header-Decor{
     background: var(--HeaderBg) right center no-repeat;
+    height: 1000px;
+}
+.Decor{
     position: absolute;
     left: 0;
     right: 0;
-    height: 1000px;
 }
 .Decor-Item{
     position: absolute;
@@ -373,10 +375,13 @@
     line-height: 100%;
 }
 .Price-Link{
-    font-weight: 450;
+    font-weight: 500;
     font-size: 55px;
     line-height: 150%;
     color: var(--СolorPrimary);
+}
+.Price-Link_Mail{
+    display: none;
 }
 /* Work */
 .Work{
@@ -392,7 +397,6 @@
     font-weight: 300;
     text-align: center;
     font-size: 40px;
-    line-height: 51px;
     margin-bottom: 30px;
 }
 .Work-Title{
@@ -405,6 +409,7 @@
 .Work-Top{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap:43px;
     margin-bottom: 240px;
 }
@@ -437,7 +442,6 @@
 .Work-Text{
     font-weight: 400;
     font-size: 30px;
-    line-height: 38px;
     text-align: center;
 }
 .FormWork-Btn{
@@ -481,6 +485,9 @@ input[type="checkbox"]:checked + label[for="Input-Checkbox"]::before{
 }
 .Work-Bottom{
     padding-bottom: 30px;
+}
+.Work-Decor{
+    display: none;
 }
 .Work-Bottom > .Logo{
     margin: 0 0 97px 130px;
@@ -631,6 +638,9 @@ input[type="checkbox"]:checked + label[for="Input-Checkbox"]::before{
     .Title{
         font-size: 36px;
     }
+    .Advantages{
+        padding-bottom: 20px;
+    }
     .ItemAdvantages {
         text-align: left;
     }
@@ -668,6 +678,9 @@ input[type="checkbox"]:checked + label[for="Input-Checkbox"]::before{
         bottom: 900px;
         left: -90px;
     }
+    .Price{
+        padding: 0 30px;
+    }
     .Price-Cost{
         font-size: 21px;
     }
@@ -679,12 +692,79 @@ input[type="checkbox"]:checked + label[for="Input-Checkbox"]::before{
     }
     .Price-Container{
         padding: 40px 0;
+        border-radius: 20px;
+        background: var(--PriceBgBottomMobile) left bottom no-repeat,
+        #D8E1E8 var(--PriceBgTopMobile) right top no-repeat;
+    }
+    .Price-Advice{
+        margin-top: 20px;
     }
     .Price-Advice > span{
         font-size: 24px;
-        margin-top: 20px;
     }
     .Price-Link{
         font-size: 36px;
+    }
+    .Price-Link_Mail{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 24px;
+        color: #289f66;
+        margin-bottom: 60px;
+    }
+    .Work {
+        background: var(--WorkBgMobile) bottom right no-repeat;
+        padding-top: 80px;
+    }
+    .Work-Inf{
+        order: -1;
+    }
+    .Work-Decor{
+        display: block;
+    }
+    .Work-TextSup{
+        font-size: 30px;
+    }
+    .Work-Text{
+        font-size: 18px;
+    }
+    .Work-Top{
+        margin-bottom: unset;
+    }
+    .Work-Bottom > .Logo{
+        margin: 80px 0 430px;
+        justify-content: center;
+    }
+    .Work-TextSub{
+        text-align: center;
+    }
+    .Work .Decor-Item{
+        position: absolute;
+        z-index: -3;
+    }
+    .Work .Decor-Item_Blue{
+        right: unset;
+        width: 206px;
+        height: 206px;
+        top: 145px;
+        left: -105px;
+    }
+    .Work .Decor-Item_Red{
+        top: 195px;
+        right: 50px;
+        width: 160px;
+        height: 160px;
+    }
+    .Work .Decor-Item_Green{
+        width: 245px;
+        height: 245px;
+        right: 0;
+        top: 375px;
+    }
+    .Work .Decor-Item_Purple{
+        top: 505px;
+        left: -60px;
+        width: 115px;
+        height: 115px;
     }
 }

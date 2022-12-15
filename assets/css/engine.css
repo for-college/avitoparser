@@ -3,14 +3,11 @@
     margin: 0;
     padding: 0;
 }
-html{
-    scroll-behavior: smooth;
-    animation: opacity 1s;
-    overflow-x: hidden;
-}
+html{ scroll-behavior: smooth; animation: opacity 1s; }
+body{ background-color: #ECF2F6; overflow-x: hidden; touch-action: none;}
 a{ text-decoration: none }
 button{ cursor: pointer }
-div, nav{ box-sizing: border-box }
+div, nav, section{ box-sizing: border-box }
 ul { list-style-type: none }
 /* Общие правила */
 .PageWrapper{
@@ -28,7 +25,6 @@ a, p, h1, h2, h3, h4, button, span, label, input{
     font-size: 24px;
     color: var(--TextColor);
 }
-body{ background-color: #ECF2F6;}
 /* Стили для стандартной ссылки */
 .Link{
     font-size: 24px;

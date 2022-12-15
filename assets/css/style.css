@@ -268,14 +268,14 @@
     bottom: 150px;
 }
 .ItemAdvantages_DecorLine::after{
-    width: 1207px;
     height: 400px;
-    right: -550px;
     top: -150px;
     border-radius: unset;
     z-index: 2;
     transform: rotate(10deg);
     background: var(--AdvantagesDecorLine);
+    width: 1000px;
+    right: -375px;
 }
 .ItemAdvantages_DecorPurpleGreen::after{
     width: 107px;

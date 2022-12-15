@@ -1,4 +1,4 @@
-@media (max-width: 1155px) {
+    @media (max-width: 1155px) {
     .ItemAdvantages:last-child {
         gap: unset;
     }
@@ -124,7 +124,6 @@
     }
     .Try-Image{
         height: 86px;
-
     }
     .Title{
         font-size: 36px;
@@ -229,6 +228,9 @@
     }
     .Work-TextSub{
         text-align: center;
+        color: #5956E9;
+        font-weight: 500;
+        font-size: 12px;
     }
     .Work .Decor-Item{
         position: absolute;

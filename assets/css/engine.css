@@ -14,7 +14,8 @@ div, nav{ box-sizing: border-box }
 ul { list-style-type: none }
 /* Общие правила */
 .PageWrapper{
-    min-width: 320px;
+    animation: overhang .7s;
+    min-width: 360px;
     margin: 0 auto;
 }
 [class*="-Container"]{
@@ -27,7 +28,7 @@ a, p, h1, h2, h3, h4, button, span, label, input{
     font-size: 24px;
     color: var(--TextColor);
 }
-body{ background-color: #ECF2F6; }
+body{ background-color: #ECF2F6;}
 /* Стили для стандартной ссылки */
 .Link{
     font-size: 24px;
@@ -38,7 +39,7 @@ body{ background-color: #ECF2F6; }
     color: white;
     border-radius: 21px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: inline-block;
     margin-top: 80px;
 }

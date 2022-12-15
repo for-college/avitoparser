@@ -34,26 +34,54 @@
 .Logo-Title > span{
     font-size: 36px;
     font-weight: 400;
-    line-height: normal;
 }
 .Logo-Title > span{
     font-weight: 600;
 }
-/* Page */
-.PageWrapper{
-    animation: overhang .7s;
-}
 /* Header */
-.Header{
-    background: var(--HeaderBg) right 150px no-repeat,
-                var(--BlueCircle) right 250px top no-repeat,
-                var(--RedCircle) right top no-repeat,
-                var(--PurpleCircle) right 410px top 370px no-repeat,
-                var(--GreenCircle) right 250px no-repeat,
-                var(--DecorLine) left bottom no-repeat;
+.Header-Decor{
+    background: var(--HeaderBg) right center no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1000px;
+}
+.Decor-Item{
+    position: absolute;
+    z-index: -3;
+    border-radius: 50%;
+    border: 47px solid transparent;
+}
+.Decor-Item_Blue{
+    width: 436px;
+    height: 436px;
+    border-color: #00AAFF;
+    top: -185px;
+    right: 300px;
+}
+.Decor-Item_Red{
+    width: 340px;
+    height: 340px;
+    border-color: #FF6163;
+    top: -120px;
+    right: -120px;
+}
+.Decor-Item_Green{
+    width: 518px;
+    height: 518px;
+    border-color: #97CF26;
+    top: 230px;
+    right: -200px;
+}
+.Decor-Item_Purple{
+    width: 243px;
+    height: 243px;
+    border-color: #A169F7;
+    top: 340px;
+    right: 400px;
 }
 .Header-Container{
-    height: 96vh;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
@@ -77,6 +105,10 @@
     margin-bottom: 53px;
     font-weight: 500;
     font-size: 30px;
+}
+.Header-Program{
+    position: relative;
+    z-index: 1;
 }
 .Header-TextSup{
     text-transform: uppercase;
@@ -105,6 +137,8 @@
     line-height: 38px;
 }
 .Header-Scroll{
+    position: relative;
+    z-index: 1;
     align-self: center;
 }
 .LinkScroll{
@@ -112,6 +146,9 @@
     width: 28px;
     height: 44px;
     background: var(--LinkImg);
+}
+.Header-BgMobile{
+    display: none;
 }
 /* Try */
 .Try{
@@ -181,6 +218,8 @@
 .Advantages{
     background: var(--AdvantagesBg);
     padding-bottom: 180px;
+    z-index: -3;
+    position: relative;
 }
 .Advantages-Title{
     padding: 100px 0 115px;
@@ -273,6 +312,7 @@
 .ItemAdvantages-Text{
     line-height: 31px;
     padding-right: 10px;
+    width: 500px;
     /*    Остальные стили совпадают со стандартными в engine.css*/
 }
 /* Price */
@@ -290,6 +330,7 @@
     display: flex;
     justify-content: center;
     gap: 27px;
+    flex-wrap: wrap;
 }
 .Price-Item{
     padding: 50px 20px;
@@ -344,7 +385,7 @@
                 var(--WorkBgBlue) left bottom 350px no-repeat,
                 var(--WorkBgGreen) left 320px bottom -20px no-repeat,
                 var(--WorkBgRed) left 420px bottom 420px no-repeat,
-                var(--PurpleCircle) left -50px bottom no-repeat,
+                /*var(--PurpleCircle) left -50px bottom no-repeat,*/
                 var(--WorkBgWhite) right -50px bottom no-repeat;
 }
 .Work-TextSup{
@@ -449,4 +490,201 @@ input[type="checkbox"]:checked + label[for="Input-Checkbox"]::before{
     font-weight: 300;
     font-size: 16px;
     line-height: 21px;
+}
+@media (max-width: 1180px) {
+    .Header-BgMobile{
+        background: var(--DecorLine) right 250px no-repeat;
+        display: block;
+    }
+    .Header-BgMobileImg{
+        height: 411px;
+    }
+    .Advantages{
+        background: unset;
+    }
+    .ItemAdvantages{
+        text-align: center;
+        gap: 80px;
+        flex-direction: column;
+    }
+    .ItemAdvantages-ImgWrapper{
+        order: -1;
+    }
+}
+@media (max-width: 890px) {
+    .ItemAdvantages{
+        gap: 15px;
+        align-items: center;
+    }
+}
+@media (max-width: 360px) {
+    .Header-Container{
+        height: 820px;
+    }
+    .Header-Nav{
+        padding-top: 30px;
+    }
+    .Header-Decor{
+        background: none;
+    }
+    .Logo-Title,
+    .Logo-Title > span{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .Decor-Item{
+        border: 18px solid transparent;
+    }
+    .Decor-Item_Blue{
+        width: 165px;
+        height: 165px;
+        border-color: #00AAFF;
+        top: -7%;
+        left: 40%;
+    }
+    .Decor-Item_Red{
+        width: 130px;
+        height: 130px;
+        border-color: #FF6163;
+        top: -105px;
+        right: -80px;
+    }
+    .Decor-Item_Green{
+        width: 196px;
+        height: 196px;
+        border-color: #97CF26;
+        right: -145px;
+        top: 67px;
+    }
+    .Decor-Item_Purple{
+        width: 93px;
+        height: 93px;
+        border-color: #A169F7;
+        top: 100px;
+        left: 49%;
+    }
+    .Header-Program{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Header-Slogan{
+        margin-top: 20px;
+    }
+    .Header-TextRent,
+    .Header-TextRent > span{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .Header-TextSup{
+        font-size: 20px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .Header-Title{
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .Header-TextAd{
+        text-align: center;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .Try{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        padding: 20px 20px 20px 15px;
+    }
+    .Try::after{
+        content: none;
+        width: 340px;
+    }
+    .Try::before{
+        width: 300px;
+        height: 101px;
+        top: 45px;
+        left: 8px;
+    }
+    .Try-Slogan{
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: unset;
+    }
+    .Try-Slogan > span{
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .Try-Slogan > span::after{
+        width: 310px;
+        height: 101px;
+        background: var(--AdvantagesDecorMobile);
+        bottom: 0;
+        left: 6px;
+    }
+    .Try-Image{
+        height: 86px;
+
+    }
+    .Title{
+        font-size: 36px;
+    }
+    .ItemAdvantages {
+        text-align: left;
+    }
+    .ItemAdvantages-Title{
+        font-size: 40px;
+    }
+    .ItemAdvantages-SubTitle{
+        font-size: 24px;
+    }
+    .ItemAdvantages-Img{
+        width: 300px;
+    }
+    .ItemAdvantages-Text{
+        font-size: 16px;
+        margin: 0 auto;
+        width: 320px;
+    }
+    .ItemAdvantages:not(:last-child){
+        margin-bottom: 80px;
+    }
+    .ItemAdvantages_DecorRed::after{
+        bottom: unset;
+        top: 0;
+    }
+    .ItemAdvantages_DecorBlue::after{
+        left: unset;
+        right: 315px;
+        top: -100px;
+    }
+    .ItemAdvantages:last-child{
+        gap: 50px;
+    }
+    .ItemAdvantages_DecorPurpleGreen::after{
+        top: unset;
+        bottom: 900px;
+        left: -90px;
+    }
+    .Price-Cost{
+        font-size: 21px;
+    }
+    .Price-Cost > span{
+        font-size: 36px;
+    }
+    .Price-Text{
+        font-size: 12px;
+    }
+    .Price-Container{
+        padding: 40px 0;
+    }
+    .Price-Advice > span{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .Price-Link{
+        font-size: 36px;
+    }
 }

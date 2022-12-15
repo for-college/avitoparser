@@ -11,16 +11,13 @@
 
     /* Header */
     --HeaderBg: url("../images/header/header-bgBanner.svg");
-    --RedCircle: url("../images/decoration/red.svg") ;
-    --BlueCircle: url("../images/decoration/blue.svg");
-    --PurpleCircle: url("../images/decoration/purple.svg");
-    --GreenCircle: url("../images/decoration/green.svg");
     --DecorLine: url("../images/decoration/line.svg");
     --TryGradient: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%),
                     linear-gradient(0deg, #27272E, #27272E);
     --Logo: url("../images/logo/logo.svg");
     /* Advantages */
     --AdvantagesDecor: url("../images/advantages/decor.svg");
+    --AdvantagesDecorMobile: url("../images/advantages/advDecorMobile.svg");
     --AdvantagesBg: url("../images/advantages/line.svg") center 0 no-repeat;
     --AdvantagesDecorLine: url("../images/decoration/lineBlue.svg") no-repeat;
     /* Price */

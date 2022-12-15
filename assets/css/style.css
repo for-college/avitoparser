@@ -234,6 +234,9 @@
     justify-content: center;
     position: relative;
 }
+.ItemAdvantages:nth-child(2n) .ItemAdvantages-ImgWrapper{
+    order: -1;
+}
 .ItemAdvantages::after,
 .ItemAdvantages::before{
     content: '';

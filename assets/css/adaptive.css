@@ -1,0 +1,282 @@
+@media (max-width: 1155px) {
+    .ItemAdvantages:last-child {
+        gap: unset;
+    }
+    .ItemAdvantages{
+        gap: 20px;
+    }
+}
+@media (max-width: 997px) {
+    .Header-Decor{
+        background: none;
+    }
+}
+@media (max-width: 975px) {
+    .ItemAdvantages{
+        gap: 15px;
+        align-items: center;
+    }
+    .Header-Container{
+        height: 820px;
+    }
+    .Header-Nav{
+        padding-top: 30px;
+    }
+    .Header-Decor{
+        background: none;
+    }
+    .Logo-Title,
+    .Logo-Title > span{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .Decor-Item{
+        border: 18px solid transparent;
+    }
+    .Decor-Item_Blue{
+        width: 165px;
+        height: 165px;
+        border-color: #00AAFF;
+        top: -7%;
+        left: 40%;
+    }
+    .Decor-Item_Red{
+        width: 130px;
+        height: 130px;
+        border-color: #FF6163;
+        top: -105px;
+        right: -80px;
+    }
+    .Decor-Item_Green{
+        width: 196px;
+        height: 196px;
+        border-color: #97CF26;
+        right: -145px;
+        top: 67px;
+    }
+    .Decor-Item_Purple{
+        width: 93px;
+        height: 93px;
+        border-color: #A169F7;
+        top: 100px;
+        left: 49%;
+    }
+    .Header-Program{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Header-Slogan{
+        margin-top: 20px;
+    }
+    .Header-TextRent,
+    .Header-TextRent > span{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .Header-TextSup{
+        font-size: 20px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .Header-Title{
+        font-size: 40px;
+        line-height: 100%;
+        text-align: center;
+    }
+    .Header-TextAd{
+        text-align: center;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .Try{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        padding: 20px 20px 20px 15px;
+    }
+    .Try::after{
+        content: none;
+        width: 340px;
+    }
+    .Try::before{
+        width: 300px;
+        height: 101px;
+        top: 45px;
+        left: 8px;
+    }
+    .Try-Slogan{
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: unset;
+    }
+    .Try-Slogan > span{
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .Try-Slogan > span::after{
+        width: 310px;
+        height: 101px;
+        background: var(--AdvantagesDecorMobile);
+        bottom: 0;
+        left: 6px;
+    }
+    .Try-Image{
+        height: 86px;
+
+    }
+    .Title{
+        font-size: 36px;
+    }
+    .Advantages{
+        padding-bottom: 20px;
+    }
+    .ItemAdvantages {
+        text-align: left;
+    }
+    .ItemAdvantages-Title{
+        font-size: 40px;
+    }
+    .ItemAdvantages-SubTitle{
+        font-size: 24px;
+    }
+    .ItemAdvantages-Img{
+        width: 300px;
+    }
+    .ItemAdvantages-Text{
+        font-size: 16px;
+        margin: 0 auto;
+        width: 320px;
+    }
+    .ItemAdvantages:not(:last-child){
+        margin-bottom: 80px;
+    }
+    .ItemAdvantages_DecorRed::after{
+        bottom: unset;
+        top: 0;
+    }
+    .ItemAdvantages_DecorBlue::after{
+        left: unset;
+        right: -50px;
+        top: -100px;
+        z-index: -1;
+    }
+    .ItemAdvantages:last-child{
+        gap: 50px;
+    }
+    .ItemAdvantages_DecorPurpleGreen::after{
+        top: unset;
+        bottom: 900px;
+        left: -90px;
+    }
+    .Price{
+        padding: 0 30px;
+    }
+    .Price-Cost{
+        font-size: 21px;
+    }
+    .Price-Cost > span{
+        font-size: 36px;
+    }
+    .Price-Text{
+        font-size: 12px;
+    }
+    .Price-Container{
+        padding: 40px 0;
+        border-radius: 20px;
+        background: var(--PriceBgBottomMobile) left bottom no-repeat,
+        #D8E1E8 var(--PriceBgTopMobile) right top no-repeat;
+    }
+    .Price-Advice{
+        margin-top: 20px;
+    }
+    .Price-Advice > span{
+        font-size: 24px;
+    }
+    .Price-Link{
+        font-size: 36px;
+    }
+    .Price-Link_Mail{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 24px;
+        color: #289f66;
+        margin-bottom: 60px;
+    }
+    .Work {
+        background: var(--WorkBgMobile) bottom right no-repeat;
+        padding-top: 80px;
+    }
+    .Work-Inf{
+        order: -1;
+    }
+    .Work-Decor{
+        display: block;
+    }
+    .Work-TextSup{
+        font-size: 30px;
+    }
+    .Work-Text{
+        font-size: 18px;
+    }
+    .Work-Top{
+        margin-bottom: unset;
+    }
+    .Work-Bottom > .Logo{
+        margin: 80px 0 430px;
+        justify-content: center;
+    }
+    .Work-TextSub{
+        text-align: center;
+    }
+    .Work .Decor-Item{
+        position: absolute;
+        z-index: -3;
+    }
+    .Work .Decor-Item_Blue{
+        right: unset;
+        width: 206px;
+        height: 206px;
+        top: 145px;
+        left: -105px;
+    }
+    .Work .Decor-Item_Red{
+        top: 195px;
+        right: 50px;
+        width: 160px;
+        height: 160px;
+    }
+    .Work .Decor-Item_Green{
+        width: 245px;
+        height: 245px;
+        right: 0;
+        top: 375px;
+    }
+    .Work .Decor-Item_Purple{
+        top: 505px;
+        left: -60px;
+        width: 115px;
+        height: 115px;
+    }
+}
+@media (max-width: 810px) {
+    .Header-BgMobile{
+        background: var(--DecorLine) right 250px no-repeat;
+        display: block;
+    }
+    .Header-BgMobileImg{
+        height: 411px;
+    }
+    .Advantages{
+        background: unset;
+    }
+    .ItemAdvantages{
+        text-align: center;
+        gap: 80px;
+        flex-direction: column;
+    }
+    .ItemAdvantages-ImgWrapper{
+        order: -1;
+    }
+}

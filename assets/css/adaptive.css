@@ -40,26 +40,18 @@
         top: -7%;
         left: 40%;
     }
-    .decor__item_red{
-        width: 130px;
-        height: 130px;
-        border-color: #ff6163;
-        top: -105px;
-        right: -80px;
-    }
-    .decor__item_green{
-        width: 196px;
-        height: 196px;
-        border-color: #97cf26;
-        right: -145px;
-        top: 67px;
-    }
     .decor__item_purple{
         width: 93px;
         height: 93px;
         border-color: #a169f7;
         top: 100px;
         left: 49%;
+    }
+    .header__decor::before{
+        background:  var(--decor-green-header) right 0 top 200px no-repeat;
+    }
+    .header__decor::after{
+        background:  var(--decor-red-header) right 0 top 0 no-repeat;
     }
     .header__program{
         display: flex;
@@ -223,9 +215,10 @@
         margin-bottom: unset;
     }
     .work__bottom > .logo{
-        margin-top: 80px;
+        margin: 80px 0 97px 0;
         padding-bottom: 200px;
         display: flex;
+        justify-content: center;
     }
     .work__text-sub{
         text-align: center;
@@ -249,6 +242,7 @@
         right: 50px;
         width: 160px;
         height: 160px;
+        /*background: var( --work-bg_red);*/
     }
     .work .decor__item_green{
         width: 245px;
@@ -267,9 +261,9 @@
     .header__bg_mobile{
         background: var(--decor-line) right -120px top no-repeat;
         display: block;
-    }
-    .header-mobile-img{
-        height: 411px;
+        height: 400px;
+        background-image: url("../images/header/header-bgBanner.svg");
+        background-size: cover;
     }
     .advantages{
         background: unset;

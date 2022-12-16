@@ -43,6 +43,7 @@
     max-width: 1920px;
 }
 .header__decor{
+    position: relative;
     background: var(--header-bg) right center no-repeat;
     height: 1000px;
 }
@@ -64,19 +65,18 @@
     top: -185px;
     right: 300px;
 }
-.decor__item_red{
-    width: 340px;
-    height: 340px;
-    border-color: #ff6163;
-    top: -120px;
-    right: -120px;
+.header__decor::after,
+.header__decor::before{
+    content: '';
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--work-bg_red) right -200px top -250px no-repeat;
 }
-.decor__item_green{
-    width: 518px;
-    height: 518px;
-    border-color: #97cf26;
-    top: 230px;
-    right: -200px;
+.header__decor::before{
+    z-index: -1;
+    background: var(--green-decor) right 0 top 200px no-repeat;
 }
 .decor__item_purple{
     width: 243px;
@@ -259,11 +259,11 @@
     border-radius: 50%;
 }
 .item-advantages_decor_red::after{
-    width: 150px;
-    height: 150px;
-    background: #ff6163;
-    right: -100px;
-    bottom: -50px;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*background: #ff6163;*/
+    /*right: -100px;*/
+    /*bottom: -50px;*/
 }
 .item-advantages__title_free::after{
     content: 'бесплатно';
@@ -286,13 +286,12 @@
     bottom: 150px;
 }
 .item-advantages_decor_line::after{
-    height: 400px;
+
     top: -150px;
     border-radius: unset;
     z-index: 2;
     transform: rotate(10deg);
     background: var(--advantages-decor_line);
-    width: 1000px;
     right: -375px;
 }
 .item-advantages_decor_purple-green::after{
@@ -304,11 +303,11 @@
     z-index: -1;
 }
 .item-advantages_decor_purple-green::before{
-    width: 228px;
-    height: 228px;
-    background: #97cf26;
-    right: -270px;
-    top: 10px;
+    /*width: 228px;*/
+    /*height: 228px;*/
+    /*background: #97cf26;*/
+    /*right: -270px;*/
+    /*top: 10px;*/
 }
 .item-advantages:last-child{
     gap: 150px;

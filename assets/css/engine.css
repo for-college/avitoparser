@@ -4,7 +4,7 @@
     padding: 0;
 }
 html{ scroll-behavior: smooth; animation: opacity 1s; }
-body{ background-color: #ECF2F6; overflow-x: hidden; }
+body{ background-color: #ECF2F6;}
 a{ text-decoration: none }
 button{ cursor: pointer }
 div, nav, section{ box-sizing: border-box }

@@ -147,7 +147,12 @@
     display: block;
     width: 28px;
     height: 44px;
-    background: var(--link-img);
+}
+.link-scroll:hover svg path{
+    fill: var(--color-primary);
+}
+.link-scroll:focus svg path{
+    fill: var(--link-focus);
 }
 .header__bg_mobile{
     display: none;
@@ -216,6 +221,7 @@
 .try__image{
     z-index: 1;
 }
+
 /* advantages */
 .advantages{
     background: var(--advantages-bg);
@@ -233,6 +239,10 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+}
+.item-advantages__info{
+    position: relative;
+    z-index: 2;
 }
 .item-advantages:nth-child(2n) .item-advantages__img-wrapper{
     order: -1;
@@ -286,6 +296,7 @@
     background: #a169f7;
     top: -130px;
     left: 169px;
+    z-index: -1;
 }
 .item-advantages_decor_purple-green::before{
     width: 228px;
@@ -387,7 +398,7 @@
 /* work */
 .work{
     padding-top: 154px;
-    background: var(--work-bg) bottom right 200px no-repeat,
+    background: var(--work-bg) bottom -5px right 200px no-repeat,
                 var(--work-bg_blue) left bottom 350px no-repeat,
                 var(--work-bg_green) left 320px bottom -20px no-repeat,
                 var(--work-bg_purple) left -50px bottom -50px no-repeat,
@@ -495,6 +506,6 @@ input[type="checkbox"]:checked + label[for="input-checkbox"]::before{
 }
 .work__text-sub{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 21px;
 }

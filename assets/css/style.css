@@ -495,7 +495,7 @@ label[for="input-checkbox"]::before {
     background-size: 25px;
 }
 input[type="checkbox"]:checked + label[for="input-checkbox"]::before{
-    background-image: url("../images/work/input2.svg");
+    background-image: url("../images/work/input.svg");
 }
 .work__bottom{
     padding-bottom: 30px;

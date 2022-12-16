@@ -1,37 +1,39 @@
 :root{
     /* Colors */
-    --СolorPrimary: #5956E9;
-    --ColorSecondary: #27272E;
-    --LinkHover: #3c3afa;
-    --TextColor: #16171B;
-    --TitleColor: #27272E;
-    --ColorGradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
+    --color-primary: #5956E9;
+    --color-secondary: #27272E;
+    --link-hover: #3c3afa;
+    --link-focus: #2220fd;
+    --text-color: #16171B;
+    --title-color: #27272E;
+    --color-gradient: linear-gradient(95.98deg, #A169F7 1.6%, #00AAFF 24.24%, #FF6163 50.71%, #97CF26 68.48%);
 
     /* Images */
 
     /* Header */
-    --HeaderBg: url("../images/header/header-bgBanner.svg");
-    --DecorLine: url("../images/decoration/line.svg");
-    --TryGradient: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%),
+    --header-bg: url("../images/header/header-bgBanner.svg");
+    --decor-line: url("../images/decoration/line.svg");
+    --try-gradient: linear-gradient(97.23deg, #0FA6F7 19.02%, #FF6163 46.12%, #A169F7 68.04%, #97CF26 95.54%),
                     linear-gradient(0deg, #27272E, #27272E);
-    --Logo: url("../images/logo/logo.svg");
+    --logo: url("../images/logo/logo.svg");
     /* Advantages */
-    --AdvantagesDecor: url("../images/advantages/decor.svg");
-    --AdvantagesDecorMobile: url("../images/advantages/advDecorMobile.svg");
-    --AdvantagesBg: url("../images/advantages/line.svg") center 0 no-repeat;
-    --AdvantagesDecorLine: url("../images/decoration/lineBlue.svg") no-repeat;
+    --advantages-decor: url("../images/advantages/decor.svg");
+    --advantages-decor_mobile: url("../images/advantages/advDecorMobile.svg");
+    --advantages-bg: url("../images/advantages/line.svg") center 0 no-repeat;
+    --advantages-decor_line: url("../images/decoration/lineBlue.svg") no-repeat;
     /* Price */
-    --PriceBgTop: url("../images/price/priceBgTop.png");
-    --PriceBgBottom: url("../images/price/priceBgBottom.png");
-    --PriceBgTopMobile: url("../images/price/priceBgMobile.png");
-    --PriceBgBottomMobile: url("../images/price/priceBgMobileBot.png");
+    --price-bg_top: url("../images/price/priceBgTop.png");
+    --price-bg_bottom: url("../images/price/priceBgBottom.png");
+    --price-bg_top_mobile: url("../images/price/priceBgMobile.png");
+    --price-bg_bottom_mobile: url("../images/price/priceBgMobileBot.png");
     /* Work */
-    --WorkBg: url("../images/work/man.svg");
-    --WorkBgMobile: url("../images/work/workBgMobile.svg");
-    --WorkBgBlue: url("../images/work/workBlueDecor.svg");
-    --WorkBgRed: url("../images/work/workRedDecor.svg");
-    --WorkBgGreen: url("../images/work/workGreenDecor.svg");
-    --WorkBgWhite: url("../images/work/workWhiteDecor.svg");
+    --work-bg: url("../images/work/man.svg");
+    --work-bg_mobile: url("../images/work/workBgMobile.svg");
+    --work-bg_blue: url("../images/work/workBlueDecor.svg");
+    --work-bg_red: url("../images/work/workRedDecor.svg");
+    --work-bg_purple: url("../images/decoration/purple.svg");
+    --work-bg_green: url("../images/work/workGreenDecor.svg");
+    --work-bg_white: url("../images/work/workWhiteDecor.svg");
     /* Link image*/
-    --LinkImg: url("../images/button/scroll.svg") no-repeat;
+    --link-img: url("../images/button/scroll.svg") no-repeat;
 }

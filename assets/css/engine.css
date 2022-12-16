@@ -10,12 +10,12 @@ button{ cursor: pointer }
 div, nav, section{ box-sizing: border-box }
 ul { list-style-type: none }
 /* Общие правила */
-.PageWrapper{
+.page-wrapper{
     animation: overhang .7s;
     min-width: 360px;
     margin: 0 auto;
 }
-[class*="-Container"]{
+[class*="-container"]{
     padding: 0 15px;
     max-width: 1164px;
     margin: 0 auto;
@@ -23,15 +23,15 @@ ul { list-style-type: none }
 a, p, h1, h2, h3, h4, button, span, label, input{
     font-family: 'Futura PT', serif;
     font-size: 24px;
-    color: var(--TextColor);
+    color: var(--text-color);
 }
 /* Стили для стандартной ссылки */
-.Link{
+.link{
     font-size: 24px;
     line-height: 31px;
     text-align: center;
     padding: 21px 36px;
-    background-color: var(--СolorPrimary);
+    background-color: var(--color-primary);
     color: white;
     border-radius: 21px;
     position: relative;
@@ -39,7 +39,7 @@ a, p, h1, h2, h3, h4, button, span, label, input{
     display: inline-block;
     margin-top: 80px;
 }
-.Link::before{
+.link::before{
     content: '';
     height: 73px;
     left: 0;
@@ -47,19 +47,22 @@ a, p, h1, h2, h3, h4, button, span, label, input{
     top: 10px;
     width: 218px;
     z-index: -1;
-    background: var(--СolorPrimary);
+    background: var(--color-primary);
     opacity: 0.5;
     filter: blur(24px);
     border-radius: 21px;
 }
-.Link:hover{
+.link:hover{
     transition: background-color .2s linear;
-    background: var(--LinkHover);
+    background: var(--link-hover);
 }
-.Title{
+.link:active{
+    background: var(--link-focus);
+}
+.title{
     font-size: 72px;
     font-weight: 600;
     line-height: 100%;
     text-align: center;
-    color: var(--TitleColor);
+    color: var(--text-color);
 }

@@ -1,261 +1,261 @@
-    @media (max-width: 1155px) {
-    .ItemAdvantages:last-child {
+@media (max-width: 1155px) {
+    .item-advantages:last-child {
         gap: unset;
     }
-    .ItemAdvantages{
+    .item-advantages{
         gap: 20px;
     }
 }
 @media (max-width: 997px) {
-    .Header-Decor{
+    .header__decor{
         background: none;
     }
 }
 @media (max-width: 975px) {
-    .ItemAdvantages{
+    .item-advantages{
         gap: 15px;
         align-items: center;
     }
-    .Header-Container{
+    .header-container{
         height: 820px;
     }
-    .Header-Nav{
+    .header__nav{
         padding-top: 30px;
     }
-    .Header-Decor{
+    .header__decor{
         background: none;
     }
-    .Logo-Title,
-    .Logo-Title > span{
+    .logo__title,
+    .logo__title > span{
         font-size: 24px;
         line-height: 30px;
     }
-    .Decor-Item{
+    .decor__item{
         border: 18px solid transparent;
     }
-    .Decor-Item_Blue{
+    .decor__item_blue{
         width: 165px;
         height: 165px;
-        border-color: #00AAFF;
+        border-color: #00aaff;
         top: -7%;
         left: 40%;
     }
-    .Decor-Item_Red{
+    .decor__item_red{
         width: 130px;
         height: 130px;
-        border-color: #FF6163;
+        border-color: #ff6163;
         top: -105px;
         right: -80px;
     }
-    .Decor-Item_Green{
+    .decor__item_green{
         width: 196px;
         height: 196px;
-        border-color: #97CF26;
+        border-color: #97cf26;
         right: -145px;
         top: 67px;
     }
-    .Decor-Item_Purple{
+    .decor__item_purple{
         width: 93px;
         height: 93px;
-        border-color: #A169F7;
+        border-color: #a169f7;
         top: 100px;
         left: 49%;
     }
-    .Header-Program{
+    .header__program{
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .Header-Slogan{
+    .header__slogan{
         margin-top: 20px;
     }
-    .Header-TextRent,
-    .Header-TextRent > span{
+    .header__text-rent,
+    .header__text-rent > span{
         font-size: 20px;
         line-height: 26px;
     }
-    .Header-TextSup{
+    .header__text-sup{
         font-size: 20px;
         line-height: 100%;
         text-align: center;
     }
-    .Header-Title{
+    .header__title{
         font-size: 40px;
         line-height: 100%;
         text-align: center;
     }
-    .Header-TextAd{
+    .header__text-ad{
         text-align: center;
         font-size: 16px;
         line-height: 21px;
     }
-    .Try{
+    .try{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 320px;
         padding: 20px 20px 20px 15px;
     }
-    .Try::after{
+    .try::after{
         content: none;
         width: 340px;
     }
-    .Try::before{
+    .try::before{
         width: 300px;
         height: 101px;
         top: 45px;
         left: 8px;
     }
-    .Try-Slogan{
+    .try__slogan{
         font-size: 15px;
         line-height: 22px;
         margin-top: unset;
     }
-    .Try-Slogan > span{
+    .try__slogan > span{
         font-size: 25px;
         line-height: 36px;
     }
-    .Try-Slogan > span::after{
+    .try__slogan > span::after{
         width: 310px;
         height: 101px;
-        background: var(--AdvantagesDecorMobile);
+        background: var(--advantages-decor_mobile);
         bottom: 0;
         left: 6px;
     }
-    .Try-Image{
+    .try__image{
         height: 86px;
     }
-    .Title{
+    .title{
         font-size: 36px;
     }
-    .Advantages{
+    .advantages{
         padding-bottom: 20px;
     }
-    .ItemAdvantages {
+    .item-advantages {
         text-align: left;
     }
-    .ItemAdvantages-Title{
+    .item-advantages__title{
         font-size: 40px;
     }
-    .ItemAdvantages-SubTitle{
+    .item-advantages__sub-title{
         font-size: 24px;
     }
-    .ItemAdvantages-Img{
+    .item-advantages__img{
         width: 300px;
     }
-    .ItemAdvantages-Text{
+    .item-advantages__text{
         font-size: 16px;
         margin: 0 auto;
         width: 320px;
     }
-    .ItemAdvantages:not(:last-child){
+    .item-advantages:not(:last-child){
         margin-bottom: 80px;
     }
-    .ItemAdvantages_DecorRed::after{
+    .advantages_decor_red::after{
         bottom: unset;
         top: 0;
     }
-    .ItemAdvantages_DecorBlue::after{
+    .advantages_decor_blue::after{
         left: unset;
         right: -50px;
         top: -100px;
         z-index: -1;
     }
-    .ItemAdvantages:last-child{
+    .item-advantages:last-child{
         gap: 50px;
     }
-    .ItemAdvantages_DecorPurpleGreen::after{
+    .advantages_decor_purple-green::after{
         top: unset;
         bottom: 900px;
         left: -90px;
     }
-    .Price{
+    .price{
         padding: 0 30px;
     }
-    .Price-Cost{
+    .price__cost{
         font-size: 21px;
     }
-    .Price-Cost > span{
+    .price__cost > span{
         font-size: 36px;
     }
-    .Price-Text{
+    .price__text{
         font-size: 12px;
     }
-    .Price-Container{
+    .price-container{
         padding: 40px 0;
         border-radius: 20px;
-        background: var(--PriceBgBottomMobile) left bottom no-repeat,
-        #D8E1E8 var(--PriceBgTopMobile) right top no-repeat;
+        background: var(--price-bg_bottom_mobile) left bottom no-repeat,
+        #d8e1e8 var(--price-bg_top_mobile) right top no-repeat;
     }
-    .Price-Advice{
+    .price__advice{
         margin-top: 20px;
     }
-    .Price-Advice > span{
+    .price__advice > span{
         font-size: 24px;
     }
-    .Price-Link{
+    .price-link{
         font-size: 36px;
     }
-    .Price-Link_Mail{
+    .price-link_mail{
         display: inline-block;
         font-weight: 400;
         font-size: 24px;
         color: #289f66;
         margin-bottom: 60px;
     }
-    .Work {
-        background: var(--WorkBgMobile) bottom right no-repeat;
+    .work {
+        background: var(--work-bg_mobile) bottom right no-repeat;
         padding-top: 80px;
     }
-    .Work-Inf{
+    .work__inf{
         order: -1;
     }
-    .Work-Decor{
+    .work__decor{
         display: block;
     }
-    .Work-TextSup{
+    .work__text-sup{
         font-size: 30px;
     }
-    .Work-Text{
+    .work__text{
         font-size: 18px;
     }
-    .Work-Top{
+    .work__top{
         margin-bottom: unset;
     }
-    .Work-Bottom > .Logo{
+    .work__bottom > .logo{
         margin: 80px 0 430px;
         justify-content: center;
     }
-    .Work-TextSub{
+    .work__text-sub{
         text-align: center;
-        color: #5956E9;
+        color: #5956e9;
         font-weight: 500;
         font-size: 12px;
     }
-    .Work .Decor-Item{
+    .work .decor__item{
         position: absolute;
         z-index: -3;
     }
-    .Work .Decor-Item_Blue{
+    .work .decor__item_blue{
         right: unset;
         width: 206px;
         height: 206px;
         top: 145px;
         left: -105px;
     }
-    .Work .Decor-Item_Red{
+    .work .decor__item_red{
         top: 195px;
         right: 50px;
         width: 160px;
         height: 160px;
     }
-    .Work .Decor-Item_Green{
+    .work .decor__item_green{
         width: 245px;
         height: 245px;
         right: 0;
         top: 375px;
     }
-    .Work .Decor-Item_Purple{
+    .work .decor__item_purple{
         top: 505px;
         left: -60px;
         width: 115px;
@@ -263,22 +263,22 @@
     }
 }
 @media (max-width: 810px) {
-    .Header-BgMobile{
-        background: var(--DecorLine) right 250px no-repeat;
+    .header__bg_mobile{
+        background: var(--decor-line) right 250px no-repeat;
         display: block;
     }
-    .Header-BgMobileImg{
+    .header-mobile-img{
         height: 411px;
     }
-    .Advantages{
+    .advantages{
         background: unset;
     }
-    .ItemAdvantages{
+    .item-advantages{
         text-align: center;
         gap: 80px;
         flex-direction: column;
     }
-    .ItemAdvantages-ImgWrapper{
+    .item-advantages__img-wrapper{
         order: -1;
     }
 }

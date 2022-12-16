@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-html{ scroll-behavior: smooth; animation: opacity 1s; }
+html{ scroll-behavior: smooth; animation: opacity 1.2s; }
 body{ background-color: #ECF2F6;}
 a{ text-decoration: none }
 button{ cursor: pointer }
@@ -11,8 +11,8 @@ div, nav, section{ box-sizing: border-box }
 ul { list-style-type: none }
 /* Общие правила */
 .page-wrapper{
-    animation: overhang .7s;
-    min-width: 360px;
+    animation: overhang .8s;
+    min-width: 350px;
     margin: 0 auto;
 }
 [class*="-container"]{

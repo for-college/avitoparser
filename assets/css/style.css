@@ -4,7 +4,7 @@
 @import "animations.css";
 /* logo */
 .logo__link{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     position: relative;
 }
@@ -93,6 +93,7 @@
 }
 .header__content{
     flex: 1 1 auto;
+    z-index: 2;
 }
 .header__nav{
     position: relative;
@@ -145,7 +146,7 @@
 }
 .header__scroll{
     position: relative;
-    z-index: 1;
+    z-index: 50;
     align-self: center;
 }
 .link-scroll{

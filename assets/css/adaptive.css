@@ -216,9 +216,9 @@
     }
     .work__bottom > .logo{
         margin: 80px 0 97px 0;
-        padding-bottom: 200px;
-        display: flex;
+        padding-bottom: 140px;
         justify-content: center;
+        display: flex;
     }
     .work__text-sub{
         text-align: center;
@@ -234,24 +234,23 @@
         right: unset;
         width: 206px;
         height: 206px;
-        top: 145px;
         left: -105px;
     }
     .work .decor__item_red{
-        top: 133px;
         right: 50px;
         width: 160px;
         height: 160px;
-        /*background: var( --work-bg_red);*/
+        border-color: #FF6163;
     }
     .work .decor__item_green{
         width: 245px;
         height: 245px;
         right: 0;
-        top: 242px;
+        top: 160px;
+        border-color: #97CF26;
     }
     .work .decor__item_purple{
-        top: 372px;
+        top: 300px;
         left: -60px;
         width: 115px;
         height: 115px;
